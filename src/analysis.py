@@ -34,3 +34,9 @@ sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
 plt.title("Correlation Matrix")
 plt.show()
 
+import matplotlib.pyplot as plt
+
+plt.plot([1,2,3,4], [10,20,25,30])
+plt.title("Test Graph")
+plt.show()
+
