@@ -1,4 +1,7 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 
 # Load data
 df = pd.read_csv('data/students.csv')
@@ -18,3 +21,16 @@ print(df.groupby('gender').mean())
 # Correlation
 print("\nCorrelation:")
 print(df.corr())
+
+df[['math_score', 'reading_score', 'writing_score']].hist(bins=15)
+plt.suptitle("Distribution of Scores")
+plt.show()
+
+df.groupby('gender')[['math_score', 'reading_score', 'writing_score']].mean().plot(kind='bar')
+plt.title("Average Scores by Gender")
+plt.show()
+
+sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
+plt.title("Correlation Matrix")
+plt.show()
+
