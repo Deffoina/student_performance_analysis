@@ -1,23 +1,23 @@
 # Student Performance Analysis
 
-## Description
-This project analyzes student performance using Python.  
-It explores how factors like study time, attendance, and other variables affect academic results.
+## Project Overview
+This project analyzes student academic performance using Python.  
+It explores how factors like gender and scores in different subjects affect overall performance.
 
-## Project Structure
-- data/ → dataset files
-- src/ → source code
-- README.md → project documentation
-- requirements.txt → dependencies
+## Features
+- Data exploration and cleaning
+- Statistical analysis (mean scores, grouping by gender)
+- Data visualization (histograms and bar charts)
 
 ## Technologies Used
 - Python
 - Pandas
 - Matplotlib
-- Seaborn
 
-## How to Run
+## Visualizations
+- Score distribution graphs
+- Gender-based performance comparison
 
-1. Install dependencies:
+##  How to Run
 ```bash
-pip install -r requirements.txt
+python src/analysis.py
