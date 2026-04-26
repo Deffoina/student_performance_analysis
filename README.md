@@ -13,10 +13,12 @@ It explores how factors like gender and scores in different subjects affect over
 - Python
 - Pandas
 - Matplotlib
+- seaborn
 
 ## Visualizations
 - Score distribution graphs
 - Gender-based performance comparison
+- correlation heatmap of subjects
 
 ##  How to Run
 ```bash
